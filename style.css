@@ -9,7 +9,7 @@
 body {
     background-color: var(--cream);
     display: grid;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
     font-family: Montserrat;
 }
