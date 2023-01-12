@@ -1,0 +1,147 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --cream: hsl(30, 38%, 92%);
+    --green: hsl(158, 36%, 37%);
+    --grayishblue: hsl(228, 12%, 48%);
+    --darkblue: hsl(212, 21%, 14%);
+}
+
+body {
+    background-color: var(--cream);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+.main-card {
+    display: grid;
+    background-color: var(--white);
+    width: 350px;
+    border-radius: 10px;
+}
+
+.image-wrapper {
+    border-radius: 10px;
+}
+
+.image {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: auto;
+}
+
+
+.product-heading {
+    color: var(--grayishblue);
+}
+
+.text-div {
+    margin: 1rem 1.5rem 0 1.5rem;
+}
+
+.product-heading {
+    letter-spacing: .3rem;
+    font-size: 13px;
+}
+
+.title {
+    font-family: Fraunces;
+    margin-top: -.1rem;
+    color: var(--darkblue);
+}
+
+.description {
+    color: var(--grayishblue);
+    line-height: 180%;
+    font-size: 14.5px;
+    margin-top: -.5rem;
+}
+
+.price-div {
+    margin: -2rem 1.5rem -1rem 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.price-bold {
+    font-family: Fraunces;
+    color: var(--green);
+    font-size: 2rem;
+}
+
+.price-small {
+    color: var(--grayishblue);
+    text-decoration: line-through;
+    margin-left: 1.2rem;
+    font-size: 13px;
+}
+
+.button-div {
+    background-color: var(--green);
+    color: var(--white);
+    width: 80%;
+    text-align: center;
+    padding: 1rem;
+    margin: 0 auto 1.5rem auto;
+    border-radius: 10px;
+}
+
+.button-div:active {
+    background-color: #08210b;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 976px) {
+    body {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-card {
+        display: flex;
+        width: 600px;
+        height: 480px;
+        margin: 2rem;
+    }
+
+    .text-div {
+        margin-top: 2rem;
+    }
+
+    .description {
+        margin-top: 1rem;
+    }
+
+    .image-wrapper {
+        width: 150%;
+    }
+
+    .image {
+        border-radius: 10px 0px 0px 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .price-div {
+        margin: -1.5rem 1.5rem -.5rem 1.5rem;
+    }
+
+    .button-div {
+        width: 70%;
+        margin-top: .5rem;
+    }
+}
