@@ -9,7 +9,7 @@
 body {
     background-color: var(--cream);
     display: grid;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     font-family: Montserrat;
 }
@@ -102,10 +102,19 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
+footer {
+    height: 16px;
+}
+
 @media screen and (min-width: 976px) {
-    body {
-        height: 100%;
-        width: 100%;
+    body {}
+
+    .container-main {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -115,7 +124,6 @@ body {
         display: flex;
         width: 600px;
         height: 480px;
-        margin: 2rem;
     }
 
     .text-div {
@@ -143,5 +151,13 @@ body {
     .button-div {
         width: 70%;
         margin-top: .5rem;
+    }
+
+    .container-footer {
+        margin-top: ;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
     }
 }

@@ -17,39 +17,44 @@
 </head>
 
 <body>
-  <main>
-    <div class="main-card">
-      <div class="image-wrapper">
-        <picture>
-          <source class="image card-image-desktop" media="(min-width: 976px)" srcset="images/image-product-desktop.jpg">
-          <source class="image card-image-mobile" media="(min-width: 375px)" srcset="images/image-product-mobile.jpg">
-          <img class="image card-image-mobile" src="images/image-product-mobile.jpg" alt="image of product"
-            width="auto">
-        </picture>
+  <div class="container-main">
+    <main>
+      <div class="main-card">
+        <div class="image-wrapper">
+          <picture>
+            <source class="image card-image-desktop" media="(min-width: 976px)"
+              srcset="images/image-product-desktop.jpg">
+            <source class="image card-image-mobile" media="(min-width: 375px)" srcset="images/image-product-mobile.jpg">
+            <img class="image card-image-mobile" src="images/image-product-mobile.jpg" alt="image of product"
+              width="auto">
+          </picture>
+        </div>
+        <div class="main-content">
+          <div class="text-div">
+            <p class="product-heading">PERFUME</p>
+            <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
+            <p class="description">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+              Perfumer-Creator for the House of CHANEL.</p>
+          </div>
+          <div class="price-div">
+            <p class="price-bold">$149.99</p>
+            <p class="price-small">$169.99</p>
+          </div>
+          <div class="button-div">
+            <buttton class="cart-button"><img src="images/icon-cart.svg" alt="cart icon" /> Add to Cart</buttton>
+          </div>
+        </div>
       </div>
-      <div class="main-content">
-        <div class="text-div">
-          <p class="product-heading">PERFUME</p>
-          <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
-          <p class="description">A floral, solar and voluptuous interpretation composed by Olivier Polge,
-            Perfumer-Creator for the House of CHANEL.</p>
-        </div>
-        <div class="price-div">
-          <p class="price-bold">$149.99</p>
-          <p class="price-small">$169.99</p>
-        </div>
-        <div class="button-div">
-          <buttton class="cart-button"><img src="images/icon-cart.svg" alt="cart icon" /> Add to Cart</buttton>
-        </div>
-      </div>
-    </div>
+    </main>
+  </div>
+  <div class="container-footer">
     <footer>
       <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.
+        Coded by <a href="#">Jamaur Downs</a>.
       </div>
     </footer>
-  </main>
+  </div>
 </body>
 
 </html>
