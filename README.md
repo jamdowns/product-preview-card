@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/desktop.png)
-![](./images/mobile.png)
+![Desktop Image](./images/desktop.png)
+![Mobile Image](./images/mobile.png)
 
 ### Links
 
@@ -43,8 +43,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
